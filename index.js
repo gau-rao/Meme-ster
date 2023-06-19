@@ -5,6 +5,8 @@ function showJoke(){
     const newjoke = document.createElement('p');
     newjoke.textContent = joketext ;
     clearAll();
+     container.appendChild(newjoke);
+
   }
   
   function clearAll() {
